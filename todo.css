@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    margin:0;
+    text-align: center;
+    background-color: beige;
+}
+#main-head{
+    font-family: 'Courier New', Courier, monospace;
+}
+#todo-input{
+    padding: 8px 8px 8px;
+}
+#todo-date{
+    padding: 8px 8px 8px;
+}
+#addBtn{
+    color:antiquewhite;
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#delBtn{
+    color:antiquewhite;
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px ;
+    column-gap: 10px;
+    row-gap:10px;
+    margin-top: 10px;
+    align-items: center;
+}
